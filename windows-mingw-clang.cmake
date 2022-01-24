@@ -1,5 +1,5 @@
 set(CMAKE_SYSTEM_NAME Windows)
-set(TOOLCHAIN_PREFIX D:/msys64/mingw64/bin/x86_64-w64-mingw32)
+set(TOOLCHAIN_PREFIX D:/msys64/mingw64/bin/)
 
 # cross compilers to use for C, C++ and Fortran
 set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}clang.exe)
